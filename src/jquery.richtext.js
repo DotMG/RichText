@@ -1903,7 +1903,7 @@
             colors["#F79646"] = settings.translations.orange;
             colors["#FFFF00"] = settings.translations.yellow;
 
-            if (settings.colors && settings.colors.length > 0) {
+            if (settings.colors && Object.keys(settings.colors).length > 0) {
                 colors = settings.colors;
             }
 
